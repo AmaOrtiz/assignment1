@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lexend', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+a {
+    color: #52850a;
+    text-decoration: none;
+}
+a:hover {
+    color: #06471a;
+    text-decoration: none;
+}
+  h1, h2 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+}
+p {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+/*Buttons*/
+.button{
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #96b846;
+    color: #386d0d;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    
+}
+/*HTML Tag Selectors*/
+p{
+    color: #273105;
+}
+h1, h2, h3, h4 {
+    font-weight: bolder;
+    color: #51ae04;
+}
+em {
+    font-style: italic;
+    color: #5e650d;
+}
+strong {
+    font-weight: bold;
+    color: #73a411;
+}
+/*Gradient*/
+body {
+    background: linear-gradient(to top, #6df6b855, #daf9ada4);
+    color: rgb(32, 70, 6);
+    font-family: 'Lexend', sans-serif;
+}
+/*Gallery*/
+
+.gallery{
+    display: inline-block;
+    vertical-align: top;
+    gap: 15px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.gallery:hover{
+    transform: scale(1.1);
+    transition-duration: 0.25s;
+}
